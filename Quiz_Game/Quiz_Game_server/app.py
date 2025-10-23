@@ -19,8 +19,8 @@ def get_question():
 @app.route('/check-answer', methods=['POST'])
 def check_answer():
     data=request.get_json()
-    answer=data.get('answer','').stripe()
-    correct=data.get('correct_answer','').stripe()
+    answer=data.get('answer','')
+    correct=data.get('correct_answer','')
 
     if answer == correct:
            return jsonify({"result": "correct"})  
