@@ -1,0 +1,6 @@
+[
+  {"question": "What is the capital of France?", "correct_answer": "paris"},
+  {"question": "Who invented Python?", "correct_answer": "guido van rossum"},
+  {"question": "What does CPU stand for?", "correct_answer": "central processing unit"}
+]
+
